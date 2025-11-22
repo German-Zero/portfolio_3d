@@ -1,4 +1,5 @@
 import HeroExperience from '../components/three/HeroModels/HeroExperience'
+import CTAprojects from '../components/ui/CTAProjects/cta.projects'
 
 const Hero = () => {
   return (  
@@ -18,7 +19,7 @@ const Hero = () => {
               - German
             </p>
           </div>
-          <button className='w-[245px] h-[55px] text-black bg-white font-mono text-lg rounded-lg'>Proyectos!</button>
+          <CTAprojects />
         </div>
           <figure className='absolute w-full max-w-[1000px] h-full max-h-[1000px] right-14 z-0'>
             <HeroExperience />
