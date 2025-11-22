@@ -10,6 +10,7 @@ const SkillTech = () => {
                     <h3 className='text-white'>Frontend</h3>
                     <div>
                         <img src="" alt="" />
+                        <img src="" alt="" />
                     </div>
                 </div>
                 <div className='w-[250px] max-h-[350px] h-full rounded-2xl border-2 border-white'></div>
