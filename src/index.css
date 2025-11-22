@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Space+Grotesk:wght@400;500;600&family=JetBrains+Mono:wght@400;600&display=swap');
+@import "tailwindcss";
+
+
+#app {
+    width: 100%;
+    height: 100%;
+}
+
+@theme {
+    --font-sans: "Inter", system-ui, sans-serif;
+    --font-heading: "Space Grotesk", system-ui, sans-serif;
+    --font-mono: "JetBrains Mono", monospace;
+}
+
+.animated-gradient {
+    background: linear-gradient(
+        90deg,
+        #a2ff00,
+        #fffb00,
+        #00a416,
+        #b09f00
+    );
+    background-size: 300% 300%;
+    -webkit-background-clip: text;
+    color: transparent;
+    animation: gradientMove 4s ease infinite;
+}
+
+@keyframes gradientMove {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
