@@ -19,7 +19,7 @@ import './style.css'
 const CardSkill = () => {
   return (
 <div className='flex flex-col justify-center items-center gap-16 w-full h-full'>
-    <h2 className='text-white font-sans text-2xl font-semibold'>Frontend</h2>
+    <h2 className='text-white font-heading text-2xl font-semibold tracking-wide'>Frontend</h2>
     <div className='carousel'>
         <div className='track'>
             {[...Array(2)].map((_, i) => (
@@ -35,7 +35,7 @@ const CardSkill = () => {
             ))}
         </div>
     </div>
-    <h2 className='text-white font-sans text-2xl font-semibold'>Backend</h2>
+    <h2 className='text-white font-heading text-2xl font-semibold tracking-wide'>Backend</h2>
     <div className='carousel'>
         <div className='track'>
             {[...Array(3)].map((_, i) => (
@@ -48,7 +48,7 @@ const CardSkill = () => {
             ))}
         </div>
     </div>
-    <h2 className='text-white font-sans text-2xl font-semibold'>Tools</h2>
+    <h2 className='text-white font-heading text-2xl font-semibold tracking-wide'>Tools</h2>
     <div className='carousel'>
         <div className='track'>
             {[...Array(3)].map((_, i) => (
