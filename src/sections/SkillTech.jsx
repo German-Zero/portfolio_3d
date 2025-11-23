@@ -1,5 +1,4 @@
-import React from 'react'
-import CardSkill from '../components/ui/CardSkill/card.skill'
+import CardSkill from "../components/ui/CardSkill/CardSkill"
 
 
 const SkillTech = () => {
