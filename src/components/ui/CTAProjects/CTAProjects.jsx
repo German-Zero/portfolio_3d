@@ -1,6 +1,6 @@
 import './style.css'
 
-const CTAprojects = () => {
+const CTAProjects = () => {
   return (
     <button 
         className='btn-wiggly arrow-btn font-mono'
@@ -19,4 +19,4 @@ const CTAprojects = () => {
 }
 
 
-export default CTAprojects
+export default CTAProjects

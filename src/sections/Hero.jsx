@@ -1,5 +1,6 @@
 import HeroExperience from '../components/three/HeroModels/HeroExperience'
-import CTAprojects from '../components/ui/CTAProjects'
+import CTAProjects from '../components/ui/CTAProjects/CTAProjects'
+
 
 const Hero = () => {
   return (  
@@ -21,7 +22,7 @@ const Hero = () => {
             </p>
           </div>
 
-        <CTAprojects />
+        <CTAProjects />
         </div>
 
         <figure className='absolute w-full max-w-[1000px] h-full max-h-[1000px] right-14 pointer-events-none'>
