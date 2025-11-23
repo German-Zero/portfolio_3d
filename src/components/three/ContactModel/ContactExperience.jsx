@@ -4,7 +4,10 @@ import { OrbitControls } from '@react-three/drei'
 
 const ContactExperience = () => {
   return (
-    <Canvas camera={{ position: [0, 0, 15], fov: 35 }}>
+    <Canvas 
+      camera={{ position: [0, 0, 15], fov: 35 }}
+      gl={{ antialias: true, alpha: true }} style={{ background: "transparent" }}
+    >
 
         <OrbitControls 
             enablePan={false}

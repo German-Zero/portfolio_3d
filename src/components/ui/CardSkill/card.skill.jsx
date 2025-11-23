@@ -18,7 +18,7 @@ import './style.css'
 
 const CardSkill = () => {
   return (
-<div className='flex flex-col justify-center items-center gap-16 w-full h-full'>
+<div className='flex flex-col max-w-[1440px] justify-center items-center gap-16 w-full h-full'>
     <h2 className='text-white font-heading text-2xl font-semibold tracking-wide'>Frontend</h2>
     <div className='carousel'>
         <div className='track'>

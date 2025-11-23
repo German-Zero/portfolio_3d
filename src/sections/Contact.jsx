@@ -5,7 +5,7 @@ import IconInstagram from '../assets/icons/IconInstagram.png'
 
 const Contact = () => {
   return (
-    <div className='w-screen h-screen bg-black'>
+    <div className='w-screen h-screen bg-transparent'>
         <div className='w-full h-full flex justify-center items-center'>
             <div className='max-w-[1300px] max-h-[700px] w-full h-full'>
                 <div className='relative w-full h-full flex items-center justify-between'>
