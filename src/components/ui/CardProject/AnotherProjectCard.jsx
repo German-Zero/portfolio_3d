@@ -1,6 +1,3 @@
-import IconGithub from '../../../assets/icons/IconGithub.png'
-import IconLink from '../../../assets/icons/IconLink.png'
-
 const AnotherProjectCard = () => {
   return (
     <div className='flex gap-[50px] w-full max-w-[1440px] justify-end'>
@@ -13,10 +10,10 @@ const AnotherProjectCard = () => {
             </div>
             <div className='w-auto flex gap-3 justify-end'>
                 <div href='' target='' className='w-8 h-8'>
-                    <img src={IconGithub} alt="icongithub" />
+                    <img src="/icons/IconGithub.png" alt="icongithub" />
                 </div>
                 <div href='' target='' className='w-8 h-8'>
-                    <img src={IconLink} alt="iconlink" />
+                    <img src="/icons/IconLink.png" alt="iconlink" />
                 </div>
             </div>
         </div>

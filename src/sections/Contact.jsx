@@ -1,7 +1,5 @@
 import ContactExperience from "../components/three/ContactModel/ContactExperience"
-import IconGithub from '../assets/icons/IconGithub.png'
-import IconLinkedin from '../assets/icons/IconLinkedin.png'
-import IconInstagram from '../assets/icons/IconInstagram.png'
+
 
 const Contact = () => {
   return (
@@ -15,13 +13,13 @@ const Contact = () => {
                         </h3>
                         <div className='flex gap-6'>
                             <a href="https://github.com/German-Zero" target="_blank">
-                                <img src={IconGithub} alt="icongithub" className="w-12 h-12" />
+                                <img src="/icons/IconGithub.png" alt="icongithub" className="w-12 h-12" />
                             </a>
                             <a href="https://www.linkedin.com/in/germannaz/" target="_blank">
-                                <img src={IconLinkedin} alt="iconlinkedin" className="w-12 h-12" />
+                                <img src="/icons/IconLinkedin.png" alt="iconlinkedin" className="w-12 h-12" />
                             </a>
                             <a href="https://www.instagram.com/gszero_/" target="_blank">
-                                <img src={IconInstagram} alt="iconinstagram" className="w-12 h-12" />
+                                <img src="/icons/IconInstagram.png" alt="iconinstagram" className="w-12 h-12" />
                             </a>
                         </div>
                     </div>
