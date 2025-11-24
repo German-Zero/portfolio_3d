@@ -16,17 +16,19 @@ const HoyoCard = () => {
         '/>
         <div className='flex flex-col
             laptop:justify-between laptop:gap-3
-            mobile:w-full mobile:gap-5
+            mobile:w-full mobile:gap-5 mobile:items-center
         '>
             <div className='flex flex-col
                 desktopXL:gap-5
                 laptop:gap-1 laptop:items-start
-                mobile:gap-3 mobile:items-center mobile:text-center
+                tablet:w-auto
+                mobile:gap-3 mobile:items-center mobile:text-center mobile:w-[400px]
             '>
                 <h3 className='text-white font-sans text-xl font-semibold tracking-wide
                     desktopHD:text-4xl
                     laptop:text-lg laptop:text-start
-                    mobile:text-2xl mobile:text-center
+                    tablet:text-2xl
+                    mobile:text-lg mobile:text-center mobile:items-center 
                 '>Hoyo Calculator Honkai</h3>
                 <p className='max-w-[450px] text-white font-heading tracking-wide leading-6
                     desktopHD:text-xl desktopHD:max-w-[750px] desktopHD:tracking-wider desktopHD:leading-7
