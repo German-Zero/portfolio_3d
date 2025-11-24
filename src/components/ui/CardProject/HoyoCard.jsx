@@ -32,7 +32,8 @@ const HoyoCard = () => {
                 <p className='max-w-[450px] text-white font-heading tracking-wide leading-6
                     desktopHD:text-xl desktopHD:max-w-[750px] desktopHD:tracking-wider desktopHD:leading-7
                     laptop:text-[14px] laptop:text-start laptop:max-w-[450px]
-                    mobile:text-lg mobile:max-w-[550px] mobile:text-center
+                    mobileL:text-lg mobileL:max-w-[400px]
+                    mobile:text-sm mobile:max-w-[350px] mobile:text-center
                 '>
                     Es una calculadora de estadisticas para los personajes
                     de un juego de "HoYoVerse Studio". <br />
@@ -52,14 +53,6 @@ const HoyoCard = () => {
                     laptop:w-7 laptop:h-7
                 '>
                     <img src="/icons/IconGithub.png" alt="icongithub" />
-                </a>
-                <a href='https://hoyocalculator.vercel.app' target='_blank' 
-                    className='w-8 h-8
-                    desktopHD:w-14 desktopHD:h-14
-                    desktopL:w-8 desktopL:h-8
-                    laptop:w-7 laptop:h-7
-                '>
-                    <img src="/icons/IconLink.png" alt="iconlink" />
                 </a>
             </div>
         </div>

@@ -29,7 +29,8 @@ const Hero = () => {
                 desktopL:text-lg
                 laptop:text-sm
                 tablet:text-xl
-                mobile:text-[14px]
+                mobileL:text-[14px]
+                mobile:text-[12px]
               '>Bienvenido a Mi Portfolio</h2>
               <h1 className='text-white font-heading font-bold flex gap-5
                 desktopHD:text-8xl
@@ -37,7 +38,8 @@ const Hero = () => {
                 desktopL:text-5xl
                 laptop:text-4xl laptop:justify-start
                 tablet:text-5xl
-                mobile:justify-center mobile:text-4xl
+                mobileL:text-4xl
+                mobile:justify-center mobile:text-3xl
               '>
                 Developer 
                 <span className='animated-gradient'>Trainee</span>
@@ -49,7 +51,8 @@ const Hero = () => {
               desktopXL:text-2xl desktopXL:leading-8
               laptop:text-[14px] laptop:justify-start laptop:leading-6
               tablet:text-xl
-              mobile:text-sm mobile:justify-center mobile:leading-6
+              mobileL:text-sm
+              mobile:text-xs mobile:justify-center mobile:leading-6
             '>
               "Codear es libertad.<br />Ser libre es crear con tus lineas".
               <br />
@@ -64,8 +67,8 @@ const Hero = () => {
           desktopXL:max-w-[1200px] desktopXL:justify-start
           desktopL:max-w-[900px] desktopL:max-h-[900px] desktopL:right-18
           laptop:right-0 laptop:max-w-[700px] laptop:max-h-[700px]
-          tablet:max-h-[600px] tablet:bottom-10
-          mobile:max-w-none mobile:max-h-none
+          tablet:max-h-[600px]
+          mobile:max-w-none mobile:max-h-none mobile:top-[14%] mobile:right-3
         '>
           <HeroExperience />
         </figure>

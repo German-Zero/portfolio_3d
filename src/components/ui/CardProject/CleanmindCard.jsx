@@ -40,7 +40,8 @@ const CleanmindCard = () => {
                 <p className='max-w-[450px] text-white font-heading tracking-wide leading-6
                     desktopHD:text-xl desktopHD:max-w-[750px] desktopHD:tracking-wider desktopHD:leading-7
                     laptop:text-[14px] laptop:text-start laptop:max-w-[450px]
-                    mobile:text-lg mobile:max-w-[550px] mobile:text-center
+                    mobileL:text-lg mobileL:max-w-[400px]
+                    mobile:text-sm mobile:max-w-[350px] mobile:text-center
                 '>
                     CleanMind es un organizador de tareas para personas
                     con dificultad de concentracion (TDAH, TAG, Etc). <br />

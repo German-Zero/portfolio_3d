@@ -72,3 +72,25 @@
         font-size: x-large;
     }
 }
+
+@media (min-width: 100px) {
+    .btn-wiggly {
+        width: 150px;
+        height: 35px;
+    }
+    
+    .label {
+        font-size: smaller;
+    }
+}
+
+@media (min-width: 416px) {
+    .btn-wiggly {
+        width: 215px;
+        height: 45px;
+    }
+    
+    .label {
+        font-size: large;
+    }
+}

@@ -10,6 +10,8 @@ const Projects = () => {
         '>
             <h2 className='text-white font-sans text-4xl font-semibold tracking-wide
               desktopHD:text-6xl
+              mobileL:text-3xl
+              mobile:text-2xl
             '>Mis Proyectos</h2>
             <div className='flex flex-col
               mobile:gap-26

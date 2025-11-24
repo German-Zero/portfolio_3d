@@ -32,7 +32,7 @@ const HeroExperience = () => {
       desktopL:max-h-[800px] desktopL:max-w-[1000px]
       laptop:max-h-[600px] laptop:max-w-[700px]
       tablet:max-h-[600px] tablet:max-w-[650px]
-      mobile:max-w-none mobile:max-h-[400px]
+      mobile:max-w-none mobile:max-h-[350px]
       '>
 
         <OrbitControls

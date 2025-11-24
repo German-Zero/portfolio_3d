@@ -22,11 +22,12 @@ const Contact = () => {
                         laptop:items-start
                         mobile:items-center
                     '>
-                        <h3 className='text-white font-sans font-bold text-4xl tracking-wider
+                        <h3 className='text-white font-sans font-bold tracking-wider
                             desktopHD:text-6xl
                             desktopXL:text-4xl
                             laptop:text-3xl
-                            mobile:text-center
+                            mobileL:text-4xl
+                            mobile:text-center mobile:text-3xl
                         '>
                             Te Dejo Como <span className="animated-gradient">Encontrarme!</span>
                         </h3>
@@ -37,7 +38,8 @@ const Contact = () => {
                                     desktopXL:w-12 desktopXL:h-12
                                     desktopL:w-12 desktopL:h-12
                                     laptop:w-10 laptop:h-10
-                                    mobile:w-12 mobile:h-12
+                                    mobileL:w-12 mobileL:h-12
+                                    mobile:w-9 mobile:h-9
                                 " />
                             </a>
                             <a href="https://www.linkedin.com/in/germannaz/" target="_blank">
@@ -46,7 +48,8 @@ const Contact = () => {
                                     desktopXL:w-12 desktopXL:h-12
                                     desktopL:w-12 desktopL:h-12
                                     laptop:w-10 laptop:h-10
-                                    mobile:w-12 mobile:h-12
+                                    mobileL:w-12 mobileL:h-12
+                                    mobile:w-9 mobile:h-9
                                 " />
                             </a>
                             <a href="https://www.instagram.com/gszero_/" target="_blank">
@@ -55,7 +58,8 @@ const Contact = () => {
                                     desktopXL:w-12 desktopXL:h-12
                                     desktopL:w-12 desktopL:h-12
                                     laptop:w-10 laptop:h-10
-                                    mobile:w-12 mobile:h-12
+                                    mobileL:w-12 mobileL:h-12
+                                    mobile:w-9 mobile:h-9
                                 " />
                             </a>
                         </div>

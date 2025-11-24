@@ -13,8 +13,10 @@ const CardSkill = () => {
 
   return (
 <div className='flex flex-col max-w-[1440px] items-center gap-16 w-full h-full'>
-    <h2 className='text-white font-heading text-2xl font-semibold tracking-wide
+    <h2 className='text-white font-heading font-semibold tracking-wide
         desktopHD:text-4xl
+        mobileL:text-2xl
+        mobile:text-xl
     '>Frontend</h2>
     <div className='carousel'>
         <div className='track'>
@@ -31,8 +33,10 @@ const CardSkill = () => {
             ))}
         </div>
     </div>
-    <h2 className='text-white font-heading text-2xl font-semibold tracking-wide
+    <h2 className='text-white font-heading font-semibold tracking-wide
         desktopHD:text-4xl
+        mobileL:text-2xl
+        mobile:text-xl
     '>Backend</h2>
     <div className='carousel'>
         <div className='track'>
@@ -46,8 +50,10 @@ const CardSkill = () => {
             ))}
         </div>
     </div>
-    <h2 className='text-white font-heading text-2xl font-semibold tracking-wide
+    <h2 className='text-white font-heading font-semibold tracking-wide
         desktopHD:text-4xl
+        mobileL:text-2xl
+        mobile:text-xl
     '>Tools</h2>
     <div className='carousel'>
         <div className='track'>
