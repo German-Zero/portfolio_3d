@@ -6,7 +6,7 @@ const ContactExperience = () => {
   return (
     <Canvas 
       camera={{ position: [0, 0, 15], fov: 35 }}
-      gl={{ antialias: true, alpha: true }} style={{ background: "transparent" }}
+      gl={{ antialias: true, alpha: true }}
     >
 
         <OrbitControls 

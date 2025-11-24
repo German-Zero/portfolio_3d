@@ -11,6 +11,7 @@
     overflow: hidden;
 }
 
+
 .btn-wiggly:hover {
     background-color: transparent;
 }
@@ -55,4 +56,19 @@
     background-color: white;
     background-size: 300% 300%;
     transform: translate(-50%, -50%) scale(1);
+}
+
+@media (min-width: 2480px) {
+    .btn-wiggly {
+        width: 420px;
+        height: 70px;
+    }
+    
+    .arrow-btn .circle {
+        width: 48px;
+        height: 48px;
+    }
+    .label {
+        font-size: x-large;
+    }
 }

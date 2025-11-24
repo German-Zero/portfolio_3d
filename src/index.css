@@ -5,6 +5,13 @@
     --font-sans: "Inter", system-ui, sans-serif;
     --font-heading: "Space Grotesk", system-ui, sans-serif;
     --font-mono: "JetBrains Mono", monospace;
+
+    --breakpoint-desktopHD: 155rem;
+    --breakpoint-desktopXL: 115rem;
+    --breakpoint-desktopL: 90rem;
+    --breakpoint-laptop: 64rem;
+    --breakpoint-tablet: 48rem;
+    --breakpoint-mobile: 26rem;
 }
 
 .animated-gradient {

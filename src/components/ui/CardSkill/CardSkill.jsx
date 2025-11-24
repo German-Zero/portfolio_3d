@@ -1,12 +1,24 @@
+import { useMediaQuery } from 'react-responsive'
 import './style.css'
 
 const CardSkill = () => {
+
+    const isBig = useMediaQuery({ query: '(min-width: 2480px)' })
+    const isSmall = useMediaQuery({ query: '(min-width: 416px) (max-width: 1000px)'})
+
+    let groups = 3
+    
+    if (isBig) groups = 4
+    if (isSmall) groups = 5
+
   return (
-<div className='flex flex-col max-w-[1440px] justify-center items-center gap-16 w-full h-full'>
-    <h2 className='text-white font-heading text-2xl font-semibold tracking-wide'>Frontend</h2>
+<div className='flex flex-col max-w-[1440px] items-center gap-16 w-full h-full'>
+    <h2 className='text-white font-heading text-2xl font-semibold tracking-wide
+        desktopHD:text-4xl
+    '>Frontend</h2>
     <div className='carousel'>
         <div className='track'>
-            {[...Array(2)].map((_, i) => (
+            {[...Array(groups)].map((_, i) => (
                 <div className='group' key={i}>
                     <div className='card'><img src="/icons/IconCSS.png" alt="iconcss" /><h3 className='card-title font-mono'>CSS</h3></div>
                     <div className='card'><img src="/icons/IconTailwindCSS.png" alt="icontailwind" /><h3 className='card-title font-mono'>TailwindCSS</h3></div>
@@ -19,10 +31,12 @@ const CardSkill = () => {
             ))}
         </div>
     </div>
-    <h2 className='text-white font-heading text-2xl font-semibold tracking-wide'>Backend</h2>
+    <h2 className='text-white font-heading text-2xl font-semibold tracking-wide
+        desktopHD:text-4xl
+    '>Backend</h2>
     <div className='carousel'>
         <div className='track'>
-            {[...Array(3)].map((_, i) => (
+            {[...Array(groups)].map((_, i) => (
                 <div className='group' key={i}>
                     <div className='card'><img src="/icons/IconNestjs.png" alt="iconnestjs" /><h3 className='card-title font-mono'>Nest JS</h3></div>
                     <div className='card'><img src="/icons/IconCS.png" alt="iconcs" /><h3 className='card-title font-mono'>C#</h3></div>
@@ -32,10 +46,12 @@ const CardSkill = () => {
             ))}
         </div>
     </div>
-    <h2 className='text-white font-heading text-2xl font-semibold tracking-wide'>Tools</h2>
+    <h2 className='text-white font-heading text-2xl font-semibold tracking-wide
+        desktopHD:text-4xl
+    '>Tools</h2>
     <div className='carousel'>
         <div className='track'>
-            {[...Array(3)].map((_, i) => (
+            {[...Array(groups)].map((_, i) => (
                 <div className='group' key={i}>
                     <div className='card'><img src="/icons/IconGithub.png" alt="icongithub" /><h3 className='card-title font-mono'>Github</h3></div>
                     <div className='card'><img src="/icons/IconNet.png" alt="iconnet" /><h3 className='card-title font-mono'>.Net</h3></div>
