@@ -3,20 +3,20 @@
 const CleanmindCard = () => {
   return (
     <div className='flex gap-[50px] w-full
-        desktopXL:justify-start desktopXL:max-w-[1440px]
-        desktopL:max-w-[1200px]
+        desktopXL:justify-center desktopXL:max-w-[1440px]
         laptop:justify-center laptop:max-w-[900px] laptop:flex-row 
         mobile:flex-col mobile:max-w-none mobile:items-center
     '>
         <div className='rounded-2xl bg-[#ffffff10] text-white font-mono font-bold text-4xl flex justify-center items-center
-            desktopHD:w-[764.4px] desktopHD:h-[366.4px]
-            desktopXL:w-[466.5px] desktopXL:h-[229px]
-            laptop:w-[373.2px] laptop:h-[183.2px]
+            desktopHD:w-[1685.74px] desktopHD:h-[366.4px]
+            desktopXL:w-[781.48px] desktopXL:h-[229px]
+            desktopL:w-[604.88px]
+            laptop:w-[704.4px] laptop:h-[183.2px]
             tablet:w-3xl tablet:h-[380px]
             mobile:w-full mobile:h-[220px]
         '>No IMG</div>
         <div className='flex flex-col
-            laptop:justify-between laptop:gap-3
+            laptop:justify-between laptop:gap-3 laptop:items-start
             tablet:items-center
             mobile:w-full mobile:gap-5 mobile:items-center
         '>

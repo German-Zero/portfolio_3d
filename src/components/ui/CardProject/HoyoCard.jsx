@@ -3,8 +3,7 @@
 const HoyoCard = () => {
   return (
     <div className='flex gap-[50px] w-full
-        desktopXL:justify-start desktopXL:max-w-[1440px]
-        desktopL:max-w-[1200px]
+        desktopXL:justify-center desktopXL:max-w-[1440px] 
         laptop:justify-center laptop:max-w-[900px] laptop:flex-row
         mobile:flex-col mobile:max-w-none mobile:items-center
     '>
@@ -15,7 +14,7 @@ const HoyoCard = () => {
             tablet:w-3xl tablet:h-[380px]
         '/>
         <div className='flex flex-col
-            laptop:justify-between laptop:gap-3
+            laptop:justify-between laptop:gap-3 laptop:items-start
             mobile:w-full mobile:gap-5 mobile:items-center
         '>
             <div className='flex flex-col

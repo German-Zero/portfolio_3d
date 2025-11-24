@@ -5,7 +5,7 @@ const Projects = () => {
   return (
     <div className='h-auto w-screen' id='Projects'>
         <div className='w-full flex flex-col
-        laptop:justify-center laptop:items-center laptop:gap-[110px]
+        laptop:justify-center laptop:gap-[110px]
         mobile:items-center mobile:gap-10
         '>
             <h2 className='text-white font-sans text-4xl font-semibold tracking-wide
