@@ -38,7 +38,7 @@ const HoyoCard = () => {
                     Es una calculadora de estadisticas para los personajes
                     de un juego de "HoYoVerse Studio". <br />
                     Este mini-proyecto esta en stand-by pero se 
-                    pensara seguir mas adelante.
+                    pensará seguir mas adelante.
                 </p>
             </div>
             <div className='w-auto flex gap-3

@@ -64,8 +64,8 @@ const Hero = () => {
         </div>
         <figure className='absolute h-full w-full flex items-center justify-center
           desktopHD:max-w-[1400px] desktopHD:max-h-[1200px] desktopHD:bottom-[8%]
-          desktopXL:max-w-[1200px] desktopXL:justify-start
-          desktopL:max-w-[900px] desktopL:max-h-[900px] desktopL:right-18
+          desktopXL:max-w-[1200px] desktopXL:justify-start desktopXL:right-10 desktopXL:top-[1%]
+          desktopL:max-w-[900px] desktopL:max-h-[800px] desktopL:right-14
           laptop:right-0 laptop:max-w-[700px] laptop:max-h-[700px]
           tablet:max-h-[600px]
           mobile:max-w-none mobile:max-h-none mobile:top-[14%] mobile:right-3

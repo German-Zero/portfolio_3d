@@ -65,8 +65,9 @@ const Contact = () => {
                         </div>
                     </div>
                     <figure className='absolute w-full h-full
-                        desktopHD:max-w-[1000px]
-                        desktopL:max-w-[600px]
+                        desktopHD:max-w-[1000px] 
+                        desktopXL:-right-[10%]
+                        desktopL:max-w-[600px] 
                         laptop:max-w-[400px] laptop:right-14 laptop:top-0
                         tablet:max-w-3xl tablet:top-[10%]
                         mobile:max-w-[440px] mobile:right-0 mobile:top-[65%]

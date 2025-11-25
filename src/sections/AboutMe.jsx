@@ -17,7 +17,7 @@ const AboutMe = () => {
           <div className='w-auto max-w-[700px] z-1 flex flex-col gap-14
           desktopHD:max-w-[1300px] desktopHD:tracking-wider
           desktopXL:max-w-[800px]
-          desktopL:max-w-[650px] desktopL:tracking-wider
+          desktopL:max-w-[650px] desktopL:tracking-wider desktopL:justify-center
           laptop:max-w-[500px] laptop:max-h-none laptop:gap-14
           tablet:max-w-[600px] tablet:max-h-[700px]
           mobile:max-w-[360px] mobile:gap-8 mobile:absolute mobile:z-[2] mobile:h-full
@@ -30,7 +30,7 @@ const AboutMe = () => {
                 tablet:text-3xl
                 mobileL:text-2xl
                 mobile:text-center mobile:text-xl
-              '>Permiteme Presentarme.</h2>
+              '>Permítame presentarme.</h2>
               <p className='w-full text-white font-heading text-2xl text-start font-medium
                 desktopHD:text-4xl desktopHD:tracking-widest desktopHD:leading-12
                 desktopXL:text-2xl desktopXL:tracking-widest desktopXL:leading-9
@@ -47,7 +47,7 @@ const AboutMe = () => {
                 <br /><br />
                 No rehúyo el trabajo difícil; al contrario, me interesa involucrarme a 
                 fondo en cada proyecto, asumir responsabilidad y superar mis propios límites 
-                a través de práctica, constancia y mejora real.
+                a través de la práctica, constancia y mejora real.
               </p>
           </div>
           <figure className='absolute flex h-full w-full max-w-[700px] max-h-[700px]
