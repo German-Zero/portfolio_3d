@@ -2,45 +2,40 @@ import AboutExperience from '../components/three/AboutModel/AboutExperience'
 
 const AboutMe = () => {
   return (
-    <div className='w-screen h-screen bg-transparent flex items-center justify-center'>
-      <div className='w-full max-h-[700px] h-full flex flex-col justify-between items-center
-        desktopHD:max-w-[75%]
-        desktopXL:max-w-[80%]
-        desktopL:max-w-[85%]
-        laptop:max-w-[90%] laptop:m-0 laptop:max-h-[700px]
-        mobile:max-h-[700px] mobile:justify-center mobile:max-w-none
+    <div className='w-screen h-screen flex items-center justify-center'>
+      <div className='w-full h-full flex flex-col justify-center
+        desktopHD:max-w-[2100px] desktopHD:max-h-[1000px]
+        desktopXL:max-w-[1600px] desktopXL:max-h-[800px]
+        desktopL:max-w-[1200px] desktopL:max-h-[650px]
+        laptop:max-w-[900px] laptop:max-h-[500px] laptop:items-start
+        tablet:max-w-[700px] tablet:max-h-[900px] tablet:items-center
+        mobile:max-w-[380px] mobile:max-h-[700px] mobile:items-start
       '>
-        <div className='flex m-auto w-full
-          laptop:justify-between laptop:max-h-none laptop:h-auto laptop:items-center
-          mobile:m-0 mobile:justify-center mobile:items-start mobile:max-h-[800px] mobile:h-full
-        '>
-          <div className='w-auto max-w-[700px] z-1 flex flex-col gap-14
-          desktopHD:max-w-[1300px] desktopHD:tracking-wider
-          desktopXL:max-w-[800px]
-          desktopL:max-w-[650px] desktopL:tracking-wider desktopL:justify-center
-          laptop:max-w-[500px] laptop:max-h-none laptop:gap-14
-          tablet:max-w-[600px] tablet:max-h-[700px]
-          mobile:max-w-[360px] mobile:gap-8 mobile:absolute mobile:z-[2] mobile:h-full
+          <div className='absolute w-full flex flex-col gap-8 z-[1]
+          desktopHD:max-w-[1150px]
+          desktopXL:max-w-[950px]
+          desktopL:max-w-[650px]
+          laptop:max-w-[500px] laptop:h-auto laptop:items-start laptop:text-start
+          tablet:max-w-[575px] tablet:h-[900px]
+          mobile:max-w-[380px] mobile:h-[700px] mobile:items-center
           '>
-              <h2 className='w-full h-auto text-white text-start font-sans text-5xl
+              <h2 className='w-full h-auto text-white font-sans
                 desktopHD:text-7xl
-                desktopXL:text-5xl
-                desktopL:text-4xl
-                laptop:text-start
-                tablet:text-3xl
-                mobileL:text-2xl
-                mobile:text-center mobile:text-xl
+                desktopXL:text-6xl
+                desktopL:text-[40px]
+                laptop:text-4xl laptop:text-start
+                tablet:text-5xl
+                mobile:text-3xl mobile:text-center
               '>Permítame presentarme.</h2>
-              <p className='w-full text-white font-heading text-2xl text-start font-medium
-                desktopHD:text-4xl desktopHD:tracking-widest desktopHD:leading-12
-                desktopXL:text-2xl desktopXL:tracking-widest desktopXL:leading-9
-                desktopL:text-xl
-                laptop:text-lg laptop:tracking-wide laptop:leading-7 laptop:text-start
-                tablet:text-xl
-                mobileL:text-[15px] mobileL:px-0
-                mobile:text-center mobile:text-[14px] mobile:px-8
+              <p className='w-full text-white font-heading font-medium
+                desktopHD:text-3xl desktopHD:leading-12
+                desktopXL:text-[23px] desktopXL:tracking-widest desktopXL:leading-9
+                dekstopL:text-lg desktopL:leading-7 
+                laptop:text-sm laptop:tracking-wide laptop:leading-6 laptop:text-start
+                tablet:text-lg tablet:leading-8
+                mobile:text-[14px] mobile:text-center mobile:tracking-wide mobile:leading-6
               '>
-                Soy un desarrollador en formación con foco en backend y frontend, 
+                Soy un desarrollador en formación con foco en fullstack, 
                 comprometido con el aprendizaje continuo y la resolución sólida de problemas. 
                 Busco desafíos que realmente exijan criterio técnico, disciplina 
                 y capacidad de adaptación.
@@ -50,17 +45,17 @@ const AboutMe = () => {
                 a través de la práctica, constancia y mejora real.
               </p>
           </div>
-          <figure className='absolute flex h-full w-full max-w-[700px] max-h-[700px]
-            desktopHD:max-w-[1200px] desktopHD:max-h-[1200px]
-            desktopXL:max-w-[900px] desktopXL:max-h-[900px]
-            desktopL:max-w-[700px] desktopL:max-h-[700px]
-            laptop:max-w-[500px] laptop:max-h-[500px] laptop:right-14 laptop:items-start
-            tablet:max-w-[500px] tablet:max-h-[750px] tablet:right-[17%]
-            mobile:max-w-none mobile:max-h-[650px] mobile:items-end
+          <figure className='h-full w-full flex
+            desktopHD:max-w-[1000px] desktopHD:max-h-[1000px]
+            desktopXL:max-w-[800px] desktopXL:max-h-[800px]
+            desktopL:max-w-[650px] desktopL:max-h-[650px]
+            laptop:max-w-[450px] laptop:max-h-[500px] laptop:ml-auto
+            tablet:max-w-[700px] tablet:max-h-none
+            mobile:max-w-[380px] mobile:max-h-[350px] mobile:items-end mobile:mt-auto
           '>
             <AboutExperience />
           </figure>
-        </div>
+
       </div>
     </div>
   )

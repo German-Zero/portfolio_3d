@@ -7,13 +7,12 @@ const AboutExperience = () => {
     <Canvas 
       camera={{ position: [0, 0, 15], fov: 55 }}
       className='
-        desktopHD:max-w-[1200px] desktopHD:max-h-[1200px]
-        desktopXL:max-w-[900px] desktopXL:max-h-[900px]
-        desktopL:max-w-[700px] desktopL:max-h-[700px]
-        tablet:max-h-[500px]
-        mobile:mobile:max-h-[400px]
-      '
-    >
+        desktopHD:max-h-[1000px]
+        desktopXL:max-h-[800px]
+        desktopL:max-h-[650px]
+        laptop:max-h-[500px]
+        tablet:max-h-[550px]
+      '>
 
         <OrbitControls 
             enablePan={false}
