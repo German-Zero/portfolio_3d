@@ -3,7 +3,7 @@ import HoyoCard from '../components/ui/CardProject/HoyoCard'
 
 const Projects = () => {
   return (
-    <div className='h-auto w-screen' id='Projects'>
+    <div className='h-auto w-screen my-14' id='Projects'>
         <div className='w-full flex flex-col
         laptop:justify-center laptop:gap-[110px]
         mobile:items-center mobile:gap-10

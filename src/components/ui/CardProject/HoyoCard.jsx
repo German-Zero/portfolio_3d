@@ -3,8 +3,9 @@
 const HoyoCard = () => {
   return (
     <div className='flex gap-[50px] w-full
+        desktopHD:max-w-[1700px]
         desktopXL:justify-center desktopXL:max-w-[1440px] 
-        laptop:justify-center laptop:max-w-[900px] laptop:flex-row
+        laptop:justify-center laptop:max-w-[1000px] laptop:flex-row
         mobile:flex-col mobile:max-w-none mobile:items-center
     '>
         <img src="/images/HoyoCalculator.png" alt='imgpreview' className='rounded-2xl
@@ -25,20 +26,23 @@ const HoyoCard = () => {
             '>
                 <h3 className='text-white font-sans text-xl font-semibold tracking-wide
                     desktopHD:text-4xl
+                    desktopXL:text-3xl
+                    desktopL:text-2xl
                     laptop:text-lg laptop:text-start
                     tablet:text-2xl
                     mobile:text-lg mobile:text-center mobile:items-center 
                 '>Hoyo Calculator Honkai</h3>
-                <p className='max-w-[450px] text-white font-heading tracking-wide leading-6
-                    desktopHD:text-xl desktopHD:max-w-[750px] desktopHD:tracking-wider desktopHD:leading-7
-                    laptop:text-[14px] laptop:text-start laptop:max-w-[450px]
-                    mobileL:text-lg mobileL:max-w-[400px]
-                    mobile:text-sm mobile:max-w-[350px] mobile:text-center
+                <p className='text-white font-heading tracking-wide leading-6
+                    desktopHD:text-xl desktopHD:tracking-wider desktopHD:leading-7
+                    desktopXL:text-lg
+                    desktopL:leading-5
+                    laptop:text-[12px] laptop:text-start laptop:max-w-none
+                    tablet:max-w-[600px]
+                    mobileL:text-sm mobileL:max-w-[400px]
+                    mobile:text-sm mobile:leading-5 mobile:max-w-[350px] mobile:text-center
                 '>
                     Es una calculadora de estadisticas para los personajes
-                    de un juego de "HoYoVerse Studio". <br />
-                    Este mini-proyecto esta en stand-by pero se 
-                    pensará seguir mas adelante.
+                    de un juego de "HoYoVerse Studio".
                 </p>
             </div>
             <div className='w-auto flex gap-3
@@ -48,7 +52,7 @@ const HoyoCard = () => {
             '>
                 <a href='https://github.com/German-Zero/calculator-honkai' target='_blank' 
                     className='w-8 h-8
-                    desktopHD:w-14 desktopHD:h-14
+                    desktopHD:w-12 desktopHD:h-12
                     desktopL:w-8 desktopL:h-8
                     laptop:w-7 laptop:h-7
                 '>
