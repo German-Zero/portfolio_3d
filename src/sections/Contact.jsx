@@ -52,8 +52,8 @@ const Contact = () => {
                                     mobile:w-9 mobile:h-9
                                 " />
                             </a>
-                            <a href="https://www.instagram.com/gszero_/" target="_blank">
-                                <img src="/icons/IconInstagram.png" alt="iconinstagram" className="
+                            <a href="mailto:germannaz_@hotmail.com">
+                                <img src="/icons/IconOutlook.png" alt="iconoutlook" className="
                                     desktopHD:w-16 desktopHD:h-16
                                     desktopXL:w-12 desktopXL:h-12
                                     desktopL:w-12 desktopL:h-12
