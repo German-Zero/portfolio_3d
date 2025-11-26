@@ -12,9 +12,9 @@ const HeroExperience = () => {
 
   const groupPosition = 
     isLaptop ? [-1, -10, 0] :
-    isTablet ? [-2, -9, 0] :
-    isMobile ? [-2, -4, 0] :
-    [0, -9, 0]
+    isTablet ? [-1, -9, 0] :
+    isMobile ? [-3, -4, 0] :
+    [-0.5, -9, 0]
 
   const groupRotation =
   isLaptop ? [0.1, -Math.PI / 3, 0] :
@@ -27,12 +27,12 @@ const HeroExperience = () => {
       camera={{ position: [0, 0, 15], fov: 45 }}
       className='
       relative
-      desktopHD:max-h-[1300px] desktopHD:max-w-[1400px]
-      desktopXL:max-h-[1200px] desktopXL:max-w-[1200px]
-      desktopL:max-h-[800px] desktopL:max-w-[1000px]
-      laptop:max-h-[600px] laptop:max-w-[700px]
-      tablet:max-h-[600px] tablet:max-w-[650px]
-      mobile:max-w-none mobile:max-h-[350px]
+      desktopHD:max-h-[1000px]
+      desktopXL:max-h-[700px]
+      desktopL:max-h-[575px]
+      laptop:max-h-[400px]
+      tablet:max-h-[550px]
+      mobile:max-h-[350px]
       '>
 
         <OrbitControls

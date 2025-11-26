@@ -58,39 +58,62 @@
     transform: translate(-50%, -50%) scale(1);
 }
 
-@media (min-width: 2480px) {
+@media (max-width: 415px) {
     .btn-wiggly {
-        width: 420px;
-        height: 70px;
-    }
-    
-    .arrow-btn .circle {
-        width: 48px;
-        height: 48px;
-    }
-    .label {
-        font-size: x-large;
-    }
-}
-
-@media (min-width: 100px) {
-    .btn-wiggly {
-        width: 150px;
+        width: 210px;
         height: 35px;
     }
     
     .label {
-        font-size: smaller;
+        font-size: small;
     }
 }
 
-@media (min-width: 416px) {
+@media (min-width: 416px) and (max-width: 767px) {
     .btn-wiggly {
-        width: 215px;
-        height: 45px;
+        width: 220px;
+        height: 35px;
     }
     
     .label {
-        font-size: large;
+        font-size: small;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .btn-wiggly {
+        width: 290px;
+        height: 50px;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1439px) {
+    .btn-wiggly {
+        width: 200px;
+        height: 40px;
+    }
+    
+    .arrow-btn .circle {
+        width: 30px;
+        height: 30px;
+    }
+    
+    .label {
+        font-size: small;
+    }
+}
+
+@media (min-width: 2230px) {
+    .btn-wiggly {
+        width: 360px;
+        height: 75px;
+    }
+    
+    .arrow-btn .circle {
+        width: 52px;
+        height: 52px;
+    }
+    .label {
+        font-size: x-large;
     }
 }

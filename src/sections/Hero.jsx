@@ -4,55 +4,55 @@ import CTAProjects from '../components/ui/CTAProjects/CTAProjects'
 
 const Hero = () => {
   return (  
-    <div className='w-screen h-screen flex items-center justify-center bg-transparent relative'>
-      <div className='w-full h-full flex gap-12 justify-between
+    <div className='w-screen h-screen flex items-center justify-center'>
+      <div className='w-full h-full flex
         desktopHD:max-w-[2100px] desktopHD:max-h-[1200px]
-        desktopXL:max-w-[1440px] desktopXL:max-h-[900px] desktopXL:mx-0
-        desktopL:max-w-none desktopL:max-h-[700px]
-        laptop:max-h-[900px] laptop:max-w-none laptop:mx-16 laptop:items-center
-        tablet:flex-nowrap tablet:max-w-3xl tablet:max-h-[850px]
-        mobile:max-h-[750px] mobile:max-w-none mobile:items-start
+        desktopXL:max-w-[1600px] desktopXL:max-h-[900px]
+        desktopL:max-w-[1200px] desktopL:max-h-[700px]
+        laptop:max-w-[900px] laptop:max-h-[900px] laptop:justify-between laptop:items-center
+        tablet:max-w-[700px] tablet:max-h-[850px] tablet:justify-center
+        mobile:max-w-[400px] mobile:max-h-[630px] mobile:items-start
       '>
-        <div className='w-full max-h-[700px] h-full flex flex-col gap-10 z-[1]
-          desktopHD:max-w-[1000px]
-          desktopXL:max-w-3xl
+        <div className='absolute w-full h-auto flex flex-col gap-10 z-[1]
+          desktopHD:max-w-[820px]
+          desktopXL:max-w-[700px]
           desktopL:max-w-[500px]
-          laptop:h-auto laptop:max-w-[350px] laptop:text-start laptop:items-start 
-          tablet:m-0
-          mobile:items-center mobile:text-center mobile:mt-6
+          laptop:max-w-[395px] laptop:h-auto laptop:text-start laptop:items-start 
+          tablet:max-w-[700px] tablet:h-[850px]
+          mobile:max-w-[400px] mobile:h-[630px] mobile:items-center mobile:text-center
         '>
           <div className='flex flex-col gap-5'>
-            <div className='w-auto flex flex-col gap-2.5'>
+            <div className='w-auto flex flex-col'>
               <h2 className='text-white font-sans font-light
                 desktopHD:text-3xl
                 desktopXL:text-xl
-                desktopL:text-lg
-                laptop:text-sm
-                tablet:text-xl
-                mobileL:text-[14px]
-                mobile:text-[12px]
-              '>Bienvenido a Mi Portfolio</h2>
+                desktopL:text-sm
+                laptop:text-sm laptop:gap-2.5
+                tablet:text-lg
+                mobileL:text-[12px]
+                mobile:text-[12px] mobile:gap-0
+              '>Hola, soy Germán, bienvenido a mi portfolio</h2>
               <h1 className='text-white font-heading font-bold flex gap-5
                 desktopHD:text-8xl
-                desktopXL:text-6xl
-                desktopL:text-5xl
-                laptop:text-4xl laptop:justify-start
-                tablet:text-5xl
-                mobileL:text-4xl
-                mobile:justify-center mobile:text-3xl
+                desktopXL:text-7xl
+                desktopL:text-[54px]
+                laptop:text-[45px] laptop:justify-start
+                tablet:text-6xl
+                mobileL:text-[43px]
+                mobile:justify-center mobile:text-4xl
               '>
-                Developer 
+                Developer
                 <span className='animated-gradient'>Trainee</span>
               </h1>
             </div>
             <p className='text-white font-mono flex
-              desktopHD:text-4xl desktopHD:leading-12 desktopHD:tracking-wider
-              desktopL:text-xl
-              desktopXL:text-2xl desktopXL:leading-8
-              laptop:text-[14px] laptop:justify-start laptop:leading-6
-              tablet:text-xl
-              mobileL:text-sm
-              mobile:text-xs mobile:justify-center mobile:leading-6
+              desktopHD:text-[26px] desktopHD:leading-10
+              desktopXL:text-[20px] desktopXL:leading-8 desktopXL:tracking-widest
+              desktopL:text-[16px] desktopL:leading-6 desktopL:tracking-wider
+              laptop:text-[14px] laptop:justify-start
+              tablet:text-lg tablet:leading-6
+              mobileL:text-[12px] mobileL:leading-[18px]
+              mobile:text-[10px] mobile:justify-center mobile:leading-4
             '>
               "Codear es libertad.<br />Ser libre es crear con tus lineas".
               <br />
@@ -62,13 +62,13 @@ const Hero = () => {
 
         <CTAProjects />
         </div>
-        <figure className='absolute h-full w-full flex items-center justify-center
-          desktopHD:max-w-[1400px] desktopHD:max-h-[1200px] desktopHD:bottom-[8%]
-          desktopXL:max-w-[1200px] desktopXL:justify-start desktopXL:right-10 desktopXL:top-[1%]
-          desktopL:max-w-[900px] desktopL:max-h-[800px] desktopL:right-14
-          laptop:right-0 laptop:max-w-[700px] laptop:max-h-[700px]
-          tablet:max-h-[600px]
-          mobile:max-w-none mobile:max-h-none mobile:top-[14%] mobile:right-3
+        <figure className='h-full w-full flex
+          desktopHD:max-w-[1300px]
+          desktopXL:max-w-[900px]
+          desktopL:max-w-[700px]
+          laptop:max-w-[500px] laptop:max-h-none laptop:items-center laptop:ml-auto
+          tablet:max-w-[700px] tablet:max-h-none
+          mobile:max-w-[490px] mobile:max-h-[350px] mobile:items-end mobile:mt-auto
         '>
           <HeroExperience />
         </figure>

@@ -11,7 +11,7 @@ const AboutMe = () => {
         mobile:max-h-[700px] mobile:justify-center mobile:max-w-none
       '>
         <div className='flex m-auto w-full
-          laptop:m-auto laptop:justify-between laptop:max-h-none laptop:h-auto laptop:items-center
+          laptop:justify-between laptop:max-h-none laptop:h-auto laptop:items-center
           mobile:m-0 mobile:justify-center mobile:items-start mobile:max-h-[800px] mobile:h-full
         '>
           <div className='w-auto max-w-[700px] z-1 flex flex-col gap-14

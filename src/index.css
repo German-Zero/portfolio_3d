@@ -6,8 +6,8 @@
     --font-heading: "Space Grotesk", system-ui, sans-serif;
     --font-mono: "JetBrains Mono", monospace;
 
-    --breakpoint-desktopHD: 1920px;
-    --breakpoint-desktopXL: 1600px;
+    --breakpoint-desktopHD: 2200px;
+    --breakpoint-desktopXL: 1920px;
     --breakpoint-desktopL: 1280px;
     --breakpoint-laptop: 1024px;
     --breakpoint-tablet: 768px;
