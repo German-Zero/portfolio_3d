@@ -1,3 +1,5 @@
+import { Analytics } from '@vercel/analytics/next'
+
 import AboutMe from './sections/AboutMe'
 import Contact from './sections/Contact'
 import Hero from './sections/Hero'
@@ -12,6 +14,7 @@ function App() {
       <SkillTech />
       <Projects />
       <Contact />
+      <Analytics />
     </>
   )
 }
